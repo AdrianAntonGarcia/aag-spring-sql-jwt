@@ -4,3 +4,9 @@ INSERT INTO users (name, email, password, enabled) VALUES ('admin','admin@gmail.
 INSERT INTO ROLES (authority,user_id) VALUES ('ROLE_USER',1);
 INSERT INTO ROLES (authority,user_id) VALUES ('ROLE_USER',2);
 INSERT INTO ROLES (authority,user_id) VALUES ('ROLE_ADMIN',2);
+
+
+INSERT INTO PRODUCTS (product_name, price) VALUES ('Pantalla samsung',300);
+INSERT INTO PRODUCTS (product_name, price) VALUES ('Radio','50.5');
+INSERT INTO PRODUCTS (product_name, price) VALUES ('Ordenador',1550.75);
+INSERT INTO PRODUCTS (product_name, price) VALUES ('Teclado gaming',70);
